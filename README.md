@@ -1,9 +1,9 @@
 # Dependencies installation
-1. run `pip install -r requirements.txt`
+1. run `source venv/Scripts/activate`
+2. run `pip install -r requirements.txt`
 
 # Starting up the application
-1. run `source venv/Scripts/activate`
-2. run `uvicorn main:app --reload`
+1. run `uvicorn main:app --reload`
 
 # Exiting the application
 1. terminate serving terminal
